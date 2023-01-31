@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import HomePage from "./components/homepage/HomePage";
+import AdvancedFilter from "./components/advancedfilter/AdvancedFilter";
+import { Route, Routes } from "react-router-dom";
+import CoinsList from "./components/coinslist/CoinsList";
+import CoinDescription from "./components/coindescription/CoinDescription";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/advancedfilter" element={<AdvancedFilter />} />
+        <Route path="/coinlist" element={<CoinsList />} />
+        <Route path="/description/:id" element={<CoinDescription />} />
+      </Routes>
     </div>
   );
 }

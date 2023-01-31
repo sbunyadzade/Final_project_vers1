@@ -1,0 +1,21 @@
+.coin-block {
+    font-family: Roboto;
+    display: inline-block;
+    min-width: 250px;
+    text-align: justify;
+    /* border: 1px solid navy; */
+    margin-top: 60px;
+}
+
+.coin-type {
+    font-weight: 500;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.coin-img {
+   width: 214px;
+   height: 214px; 
+   margin-top: 10px;
+   display: block;
+}

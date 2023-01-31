@@ -1,0 +1,38 @@
+.b-coin-block {
+    font-family: Roboto;
+    display: inline-block;
+    min-width: 400px;
+    height: 125px;
+    text-align: justify;
+    /* border: 1px solid navy; */
+    margin-top: 10px;
+    margin-top: 40px;
+}
+
+.b-inf-block {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+    width: 225px;
+    /* border: 1px solid #3a3ae0; */
+}
+
+.b-coin-type {
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #833AE0;
+}
+
+.b-coin-descr {
+    font-weight: 400;
+    font-size: 12px;
+    white-space: pre-line;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.b-coin-img {
+   width: 120px;
+   height: 120px; 
+}
